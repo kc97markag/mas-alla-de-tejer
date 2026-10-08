@@ -1,0 +1,12 @@
+# Archivos locales del sistema
+.DS_Store
+Thumbs.db
+
+# Dependencias y archivos de desarrollo
+node_modules/
+.vercel/
+
+# Fotos de referencia que no forman parte de la portada actual
+Fotos trabajos.jpg
+WhatsApp Image 2026-08-04 at 2.57.55 PM.jpeg
+Imagenes/
