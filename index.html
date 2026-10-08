@@ -15,18 +15,28 @@
       <a class="wordmark" href="#inicio" aria-label="Más Allá de Tejer, inicio">
         <span class="wordmark-star">✦</span> MÁS ALLÁ DE TEJER
       </a>
-      <a class="header-link" href="https://www.instagram.com/mas_alladetejer/" target="_blank" rel="noreferrer">Instagram ↗</a>
+      <div class="header-actions">
+        <label class="language-picker" for="language-select">
+          <span class="globe" aria-hidden="true">◎</span>
+          <span class="sr-only">Seleccionar idioma</span>
+          <select id="language-select" aria-label="Seleccionar idioma">
+            <option value="es">ES</option>
+            <option value="en">EN</option>
+          </select>
+        </label>
+        <a class="header-link" href="https://www.instagram.com/mas_alladetejer/" target="_blank" rel="noreferrer">Instagram ↗</a>
+      </div>
     </header>
 
     <main id="inicio">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> CREACIONES HECHAS A MANO</p>
-          <h1 id="hero-title">Tejemos ideas<br /><em>que abrazan.</em></h1>
-          <p class="intro">Cada puntada transforma hilos, imaginación y mucho amor en piezas únicas, creadas especialmente para ti.</p>
+          <p class="eyebrow"><span></span> <b data-i18n="heroEyebrow">CREACIONES HECHAS A MANO</b></p>
+          <h1 id="hero-title" data-i18n="heroTitle">Tejemos ideas<br /><em>que abrazan.</em></h1>
+          <p class="intro" data-i18n="intro">Cada puntada transforma hilos, imaginación y mucho amor en piezas únicas, creadas especialmente para ti.</p>
           <div class="actions">
-            <a class="button button-primary" href="https://www.instagram.com/mas_alladetejer/" target="_blank" rel="noreferrer">Conoce nuestras creaciones <span>→</span></a>
-            <a class="text-link" href="#historia">Nuestra historia <span>↓</span></a>
+            <a class="button button-primary" href="https://www.instagram.com/mas_alladetejer/" target="_blank" rel="noreferrer" data-i18n="primaryCta">Conoce nuestras creaciones →</a>
+            <a class="text-link" href="#historia" data-i18n="storyCta">Nuestra historia ↓</a>
           </div>
         </div>
 
@@ -37,35 +47,36 @@
           <span class="spark spark-two">✦</span>
           <span class="spark spark-three">✦</span>
           <div class="logo-frame"><img src="Logo.jpg" alt="Logo de Más Allá de Tejer: un cohete que despega desde una bola de lana" /></div>
-          <p class="art-note">Cada puntada,<br />una pequeña aventura.</p>
+          <p class="art-note" data-i18n="artNote">Cada puntada,<br />una pequeña aventura.</p>
         </div>
       </section>
 
       <section class="promise" aria-label="Lo que nos inspira">
-        <p>IMAGINACIÓN</p><span>✦</span><p>COLOR</p><span>✦</span><p>HECHO A MANO</p><span>✦</span><p>AMOR</p>
+        <p data-i18n="promiseOne">IMAGINACIÓN</p><span>✦</span><p data-i18n="promiseTwo">COLOR</p><span>✦</span><p data-i18n="promiseThree">HECHO A MANO</p><span>✦</span><p data-i18n="promiseFour">AMOR</p>
       </section>
 
       <section class="story" id="historia">
         <div>
-          <p class="eyebrow"><span></span> MÁS QUE HILOS</p>
-          <h2>Hay un universo<br />en cada creación.</h2>
+          <p class="eyebrow"><span></span> <b data-i18n="storyEyebrow">MÁS QUE HILOS</b></p>
+          <h2 data-i18n="storyTitle">Hay un universo<br />en cada creación.</h2>
         </div>
-        <p class="story-text">En Más Allá de Tejer creemos que lo hecho a mano tiene una magia especial: guarda tiempo, intención y cariño. Muy pronto encontrarás aquí nuestras creaciones favoritas.</p>
+        <p class="story-text" data-i18n="storyText">En Más Allá de Tejer creemos que lo hecho a mano tiene una magia especial: guarda tiempo, intención y cariño. Muy pronto encontrarás aquí nuestras creaciones favoritas.</p>
       </section>
 
       <section class="coming-soon" aria-label="Próximamente">
         <div class="yarn-ball" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-        <p class="eyebrow"><span></span> PRÓXIMAMENTE</p>
-        <h2>Un rincón lleno<br />de <em>creaciones únicas.</em></h2>
-        <p>Mientras preparamos esta galería, síguenos para conocer cada nueva aventura tejida.</p>
+        <p class="eyebrow"><span></span> <b data-i18n="soonEyebrow">PRÓXIMAMENTE</b></p>
+        <h2 data-i18n="soonTitle">Un rincón lleno<br />de <em>creaciones únicas.</em></h2>
+        <p data-i18n="soonText">Mientras preparamos esta galería, síguenos para conocer cada nueva aventura tejida.</p>
         <a class="button button-light" href="https://www.instagram.com/mas_alladetejer/" target="_blank" rel="noreferrer">@mas_alladetejer <span>↗</span></a>
       </section>
     </main>
 
     <footer>
       <a class="footer-brand" href="#inicio">MÁS ALLÁ DE TEJER</a>
-      <p>Every stitch is woven with love.</p>
+      <p data-i18n="footerTagline">Every stitch is woven with love.</p>
       <a href="https://www.instagram.com/mas_alladetejer/" target="_blank" rel="noreferrer">Instagram</a>
     </footer>
+    <script src="language.js"></script>
   </body>
 </html>
